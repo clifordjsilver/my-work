@@ -1,0 +1,24 @@
+/*text location */
+p {
+  text-align: left;
+    }
+h3 {
+    text-align: center ;
+  }
+/*borders*/
+
+h1 {
+    border: 4px dotted rgb(255, 0, 0);
+    }
+    
+h3 {
+     border: double;
+      }
+/*color */
+h3 {
+    color: white;
+}
+
+/*background*/
+body {
+    background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg")
