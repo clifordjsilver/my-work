@@ -1,52 +1,95 @@
 <!DOCTYPE html>
     <html>
     <head>
-    <body text= "green"></body>
+    <body text= "yellow"></body>
   <title>Fall Creek Pizza</title>
        <center>
         <h1 style="color:white;">My Pizza Menu</h1>
         </center>
  <!-- links files -->  
         <link rel="stylesheet" href="pizzalist.css">
-    <!-- sizes radio buttons. -->
-        <h3>Sizes</h3>
+ <!-- END links files --> 
+
+         <!-- Form -->  
+         <form>
+         Full Name:<br>
+         <input type="text" name="firstname" value="">
+         <br>
+         Phone Number:<br>
+         <input type="text" name="lastname" value="">
+         <br>
+         Address:<br>
+         <input type="text" name="firstname" value="">
+         <br>
+         <br><br>
+       </form> 
+   
+        <!-- sizes radio buttons. -->
+    <h3>Sizes</h3>
+<div>
 <input type="radio" name="pizza" value="sizes"> Personal Pizza  <br>    
 <input type="radio" name="pizza" value="sizes"> Medium Pizza <br>
 <input type="radio" name="pizza" value="sizes"> Large Pizza <br>
 <input type="radio" name="pizza" value="sizes"> Extra Large Pizza
+<div>
 
     <!-- Meats Section -->
         <h3>Meats</h3>
+    <div>
     <input type="checkbox" name="Pepperoni"> Pepperoni<br>
     <input type="checkbox" name="Pepperoni"> Sausage<br>
     <input type="checkbox" name="Pepperoni"> Canadian Bacon<br>
     <input type="checkbox" name="Pepperoni"> Ground Beef<br>
     <input type="checkbox" name="Pepperoni"> Anchovy<br>
     <input type="checkbox" name="Pepperoni"> Chicken
+    <div>
 
     <!-- cheese selection -->
         <h3>Cheese</h3>
-    <input type="radio" name="gender" value="cheese"> Regular<br>
-    <input type="radio" name="gender" value="cheese"> No Cheese<br>
-    <input type="radio" name="gender" value="cheese"> Extra Cheese
+    <div>
+        <input type="radio" name="cheese"> Regular<br>
+        <input type="radio" name="cheese"> No Cheese<br>
+        <input type="radio" name="cheese"> Extra Cheese 
+    </div>
+    
 
      <!-- crust selection -->
         <h3>Crust</h3>
-     <input type="radio" name="gender" value="crust"> Plain Crust<br>
-     <input type="radio" name="gender" value="crust"> Garlic Butter Crust<br>
-     <input type="radio" name="gender" value="crust"> Cheese Stuffed Crust<br>
-     <input type="radio" name="gender" value="crust"> Spicy Crust<br>
-     <input type="radio" name="gender" value="crust"> House Special Crust
-     
+    <div>
+     <input type="radio" name="crust"> Plain Crust<br>
+     <input type="radio" name="curst"> Garlic Butter Crust<br>
+     <input type="radio" name="crust"> Cheese Stuffed Crust<br>
+     <input type="radio" name="crust"> Spicy Crust<br>
+     <input type="radio" name="crust"> House Special Crust
+    </div>
      <!-- sauce selection -->
         <h3>Sauce</h3>
-     <input type="radio" name="gender" value="sauce"> Marinara Sauce<br>
-     <input type="radio" name="gender" value="sauce"> White Sauce<br>
-     <input type="radio" name="gender" value="sauce"> Barbeque Sauce<br>
-     <input type="radio" name="gender" value="sauce"> No Sauce
-     
-    
+    <div>
+     <input type="radio" name="sauce"> Marinara Sauce<br>
+     <input type="radio" name="sauce"> White Sauce<br>
+     <input type="radio" name="sauce"> Barbeque Sauce<br>
+     <input type="radio" name="sauce"> No Sauce
+    </div>
 
+     <!-- veggies Section -->
+        <h3>Veggies</h3>
+    <div>
+     <input type="checkbox" name="veggies"> Tomatoes<br>
+     <input type="checkbox" name="veggies"> Onions<br>
+     <input type="checkbox" name="veggies"> Olives<br>
+     <input type="checkbox" name="veggies"> Green Peppers<br>
+     <input type="checkbox" name="veggies"> Mushrooms<br>
+     <input type="checkbox" name="Veggies"> Pineapple<br>
+     <input type="checkbox" name="veggies"> Spinach<br>
+     <input type="checkbox" name="veggies"> Jalapeno
+     </div>
 
-
- 
+    <!-- button Section -->
+         
+<button style="width: 250px; height: 40px;">Place Order</button>
+<button style="width: 250px; height: 40px;">Cancel</button> 
+        <!-- END button Section -->
+	</body>
+    </head>
+    </body>
+</html>
