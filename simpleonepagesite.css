@@ -1,0 +1,15 @@
+body {
+    color: white
+}
+    
+h1 {
+    color: red
+}
+
+h3, h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg")
+}
